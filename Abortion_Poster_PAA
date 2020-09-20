@@ -1,0 +1,208 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% a0poster Landscape Poster
+% LaTeX Template
+% Version 1.0 (22/06/13)
+%
+% The a0poster class was created by:
+% Gerlinde Kettl and Matthias Weiser (tex@kettl.de)
+% 
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a0,landscape]{a0poster}
+
+\usepackage{multicol} % This is so we can have multiple columns of text side-by-side
+\columnsep=100pt % This is the amount of white space between the columns in the poster
+\columnseprule=3pt % This is the thickness of the black line between the columns in the poster
+
+\usepackage[svgnames]{xcolor} % Specify colors by their 'svgnames', for a full list of all colors available see here: http://www.latextemplates.com/svgnames-colors
+
+\usepackage{times} % Use the times font
+%\usepackage{palatino} % Uncomment to use the Palatino font
+
+\usepackage{graphicx} % Required for including images
+\graphicspath{{figures/}} % Location of the graphics files
+\usepackage{booktabs} % Top and bottom rules for table
+\usepackage[font=small,labelfont=bf]{caption} % Required for specifying captions to tables and figures
+\usepackage{amsfonts, amsmath, amsthm, amssymb} % For math fonts, symbols and environments
+\usepackage{wrapfig} % Allows wrapping text around tables and figures
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	POSTER HEADER 
+%----------------------------------------------------------------------------------------
+
+% The header is divided into three boxes:
+% The first is 55% wide and houses the title, subtitle, names and university/organization
+% The second is 25% wide and houses contact information
+% The third is 19% wide and houses a logo for your university/organization or a photo of you
+% The widths of these boxes can be easily edited to accommodate your content as you see fit
+
+\begin{minipage}[b]{0.72\linewidth}
+\veryHuge \color{NavyBlue} \textbf{The Long-Term Effects of Civil War on Reproductive Health in Tajikistan} \color{Black}\\ % Title
+
+\end{minipage}
+%
+\begin{minipage}[b]{0.15\linewidth}
+\color{DarkSlateGray}\Large \textbf{Contact Information:}\\
+Michelle L. O'Brien\\
+The Mershon Center \\
+for International Security Studies\\ % Address
+The Ohio State University\\
+\end{minipage}
+%
+\begin{minipage}[b]{0.12\linewidth}
+\includegraphics[width=10cm]{OSU_seal.png} % Logo or a photo of you, adjust its dimensions here
+\end{minipage}
+
+\vspace{0.5cm} % A bit of extra whitespace between the header and poster content
+
+%----------------------------------------------------------------------------------------
+
+\begin{multicols}{4} % This is how many columns your poster will be broken into, a poster with many figures may benefit from less columns whereas a text-heavy poster benefits from more
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+
+\large
+\color{NavyBlue}
+\section*{Introduction}
+\color{SaddleBrown} % SaddleBrown color for the introduction
+\noindent I examine the long-term consequences of the 1992-1997 civil war in Tajikistan on abortion and miscarriages, critical components of reproductive health. Research on conflict-affected areas tends to focus on fertility, but rarely examines abortion and miscarriage, especially over the long-run. These are important components of reproductive health, but in most settings are under-reported and under-studied.\\
+
+\textbf{Core Question:} How does conflict exposure affect the likelihood of experiencing abortion and miscarriage?\\
+
+\textbf{Method:} Cohort analysis of women in the ten years following the 1992-1997 civil war in Tajikistan\\
+
+\textbf{Core findings:} Women who were 15-20 \textit{and} exposed to conflict events are more likely to have an abortion, even after the war ended. Conflict events increased the likelihood of miscarriage for \textit{all} cohorts of women, even those who were children during the war.\\
+%----------------------------------------------------------------------------------------
+%	MATERIALS AND METHODS
+%----------------------------------------------------------------------------------------
+
+\color{NavyBlue}
+\section*{Background}
+\color{DarkSlateGray} 
+\subsection*{Why Tajikistan?}
+\noindent Tajikistan is a small, landlocked country in Central Asia. It was the poorest of the former Soviet Socialist Republics, and remains poor today. Islam is nearly universally practiced, with 97\% Sunni around 3\% of the population (mostly in Gorno-Badakhshan) identifying as Ismaili Muslim. 
+\noindent Tajikistan is an optimal case to study abortion in the aftermath of conflict because: \\
+\begin{itemize}
+    \item abortion in the Soviet Union was widely practiced with relatively low social stigma = more reliability in reporting
+    \item abortion was the primary method of birth control in many parts of the USSR (Agadjanian 2002; Remennik 1991)
+    \item  After independence, abortion remains legal, relatively free of social stigma, and commonly practiced
+    \item strong "abortion culture," even in Central Asia (although not as high as E. Europe) (Agadjanian 2002)
+    \item rates of abortion 1990-2014 were relatively stable (Sedgh et al. 2016)
+\end{itemize}
+
+\subsection*{Individual vs. Institutional Legacy}
+\begin{center}
+\includegraphics[scale=0.7]{HealthExp_20180716.png}
+\end{center}
+
+\noindent The experience of conflict can create individual disruptions and institutional legacies alike. Conceptually, I consider:\\
+\begin{enumerate}
+    \item \textbf{Abortion:} driven by the Ready Willing Able framework\\
+    \item \textbf{Miscarriage:} driven by health-seeking behavior and access to institutions\\
+\end{enumerate}
+
+\color{NavyBlue}
+\section*{Data and Methods}
+\color{DarkSlateGray}
+\begin{itemize}
+    \item Individual and Household Data come from the 2007 Tajikistan Living Standards Survey 
+    \item Conflict event data come from the Uppsala Conflict Data Program Georeferenced Event Dataset (UCDP GED)
+    \item Leverage subnational variation in conflict events and a cohort design to examine effects of war on abortion and miscarriage
+    \item Zero-inflated negative binomial models + offset for the number of pregnancies experienced\\
+\end{itemize}
+
+\begin{center}
+\includegraphics[scale=1.7]{EventsMap_20180221.png}
+\end{center}
+\vfill\null
+\columnbreak
+
+
+%------------------------------------------------
+
+
+\color{NavyBlue}
+\section*{Findings}
+\color{DarkSlateGray}
+
+\begin{center}
+
+\begin{tabular}{|l c c|}
+\toprule
+      & Abortion & Miscarriage  \\
+      \hline
+    Conflict events & -.026 & \textbf{-.081} \\
+    Cohort & & \\
+    26-29 & \textbf{.676} & .018\\
+    21-25 & \textbf{.754} & \textbf{.391}\\
+    15-20 & \textbf{1.06} & \textbf{.907}\\
+    12-14 & \textbf{1.42} & \textbf{.881}\\
+    Under 12 & \textbf{.920} & \textbf{1.43}\\
+    Conflict Interaction & & \\
+    26-29 & -.002 & \textbf{.096}\\
+    21-25 & .015 & \textbf{.074}\\
+    15-20 & \textbf{.065} & \textbf{.087}\\
+    12-14 & -.017 & \textbf{.117} \\
+    Under 12 & .054 & \textbf{1.03}\\
+    \bottomrule
+\end{tabular}
+    
+\end{center}
+
+\subsection*{Predicted Probabilities}
+\begin{center}
+\includegraphics[scale=1.2]{Pred01_Lab_cropped.jpg}
+\end{center}
+
+\begin{center}
+\includegraphics[scale=1.6]{legend_Preds.png}
+\end{center}
+
+\begin{center}
+\includegraphics[scale=1.7]{Preds_Miscarriage_cropped.png}
+\end{center}
+\vfill\null
+\columnbreak
+
+\color{NavyBlue}
+\section*{Conclusion}
+\color{DarkSlateGray}
+\noindent The influence of exposure to conflict events is \textbf{limited for abortion} to women who were 15-20 when war began. For \textbf{miscarriages}, cohort effects persist during the decade \textbf{\textit{after}} the war ended.\\
+
+\noindent While there were behavioral responses that affected individuals during the civil war, \textit{\textbf{the institutional and environmental repercussions of armed conflict continued to affect reproductive health}}, even a decade after the war ended.\\
+
+\color{NavyBlue}
+\section*{Next Steps}
+\color{DarkSlateGray}
+\noindent Comprehensive accounts of reproductive health are lacking if abortion and miscarriage are ignored. In the future, I plan to leverage these cases in Central Asia to examine interconnected reproductive health in the aftermath of violent conflict. \\
+
+\begin{center}
+\fbox{\includegraphics[scale=2.0]{conflictDIRECTpdf.png}}
+\end{center}
+
+
+\subsection*{Limitations}
+Respondents in the TLSS do not tell us the \textit{precise timing} of their abortions and miscarriages. For some women, we know their age at menarche was during or after the war. For others, the story is less clear. When did these abortions and miscarriages occur?\\
+
+
+
+\color{NavyBlue}
+\section*{Acknowledgements}
+\color{SaddleBrown}
+The author owes thanks to Sara Curran, Nathalie Williams, and Kammi Schmeer for their ongoing guidance on multiple drafts of this paper. Partial support for this research came from a Shanahan Endowment Fellowship and a Eunice Kennedy Shriver National Institute of Child Health and Human Development training grant, T32 HD007543, to the Center for Studies in Demography & Ecology at the University of Washington.
+\end{multicols}
+\end{document}
