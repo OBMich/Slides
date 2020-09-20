@@ -1,0 +1,301 @@
+\documentclass{beamer}
+
+\mode<presentation> {
+
+\usetheme{Boadilla}
+
+\usecolortheme{seagull}
+
+}
+
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+
+\AtBeginSection{\frame{\sectionpage}}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[Violence Motivated Migration]{Violence Motivated Migration:\\ A cross-national analysis of the role of nonwartime violence in migration decision-making} % The short title appears at the bottom of every slide, the full title is only on the title page
+
+\author{Michelle L. O'Brien} % Your name
+\institute[NYUAD] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+New York University Abu Dhabi\\Division of Social Science
+% Your institution for the title page
+}
+\date{ASA Annual Meeting 2020} % Date, can be changed to a custom date
+
+\begin{document}
+
+\begin{frame}
+\titlepage % Print the title page as the first slide
+\end{frame}
+
+
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+\section{Motivating Questions}
+\begin{frame}{How does violence affect migration?}
+   
+  \end{frame}
+\begin{frame}
+\frametitle{How does violence affect migration?}
+\begin{itemize}
+    \item We know a lot about \textit{wartime violence} and migration \\
+    {\tiny(among others: Crawley and Skleparis 2018; Williams et al. 2012; FitzGerald and Arar 2018; Ibanez and Velez 2008; Kukathas 2016; Lindley 2010; Richmond 1988; Schmeidl 1997)}
+     \end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{How does violence affect migration?}
+\begin{itemize}
+    \item We know a lot about \textit{wartime violence} and migration \\
+    {\tiny(among others: Crawley and Skleparis 2018; Williams et al. 2012; FitzGerald and Arar 2018; Ibanez and Velez 2008; Kukathas 2016; Lindley 2010; Richmond 1988; Schmeidl 1997)}
+    \item Yet, violence is a multi-faceted social phenomenon {\tiny(Collins 2008)} \\ and has \textbf{features that exist along a spectrum that spans peace and war-times}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{How does violence affect migration?}
+\begin{itemize}
+    \item We know a lot about \textit{wartime violence} and migration \\
+    {\tiny(among others: Crawley and Skleparis 2018; Williams et al. 2012; FitzGerald and Arar 2018; Ibanez and Velez 2008; Kukathas 2016; Lindley 2010; Richmond 1988; Schmeidl 1997)}
+    \item Yet, violence is a multi-faceted social phenomenon {\tiny(Collins 2008)} \\ and has \textbf{features that exist along a spectrum that spans peace and war-times}
+    \item Nonwartime violence is overlooked, so the full relationship eludes us
+   \end{itemize}
+\end{frame}
+
+\section{A New Conceptualization: Violence Motivated Migration}
+
+\begin{frame}{Aims, Assumptions, and Scope Conditions}
+    \begin{itemize}
+    \item Conceptualization designed to incorporate violence into migration theory
+    \item Types of migration: internal and international, out of one neighborhood into another
+    \item Types of violence: systematic, wartime and nonwartime (restriction: \textit{not} interpersonal)
+    \begin{itemize}
+        \item e.g. hate crimes
+    \end{itemize}
+   \end{itemize}
+\end{frame}
+
+\begin{frame}{}
+    \begin{figure}
+        \centering
+        \includegraphics[height=7cm]{VMM2020.png}
+    \end{figure}
+\end{frame}
+
+\section{Proof of Concept}
+\begin{frame}{Analytical approach}
+    \begin{itemize}
+        \item First question: Do the specified features of violence correlate with migration aspirations?
+            \begin{itemize}
+                \item If not, basic fundamental premise of conceptualization flawed
+            \end{itemize}
+        \item Second question: Are the results driven by war or armed conflict? 
+        \begin{itemize}
+            \item If so, VMM is not more useful than current siloed research on refugees or economic migrants
+            \item If not, VMM is a valid conceptualization that should be further pursued
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\subsection{Data}
+\begin{frame}{Data}
+    \begin{itemize}
+        \item Gallup World Poll
+        \item International Labour Organisation
+        \item Uppsala Conflict Data Program
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Question 1: Migration Aspirations}
+   \begin{itemize}
+       \item Gallup World Poll (GWP)
+       \item "How likely are you to move away or stay?"
+        \item Over 844,000 valid observations over 160 countries, 2005-2019
+        \item 14.2\% say they are likely to move away
+        \end{itemize}
+   \end{frame}
+
+\begin{frame}{VMM Subjective Perceptions of Violence}
+\begin{itemize}
+    \item Categorical Exclusion from Power
+    \begin{itemize}
+        \item GWP: Is your community a good place for minorities?
+    \end{itemize}
+    \item Perceived risk of violence
+        \begin{itemize}
+            \item GWP: Safe walking alone at night in your community?
+        \end{itemize}
+        \item Institutional trust in the mechanisms that deter violence
+        \begin{itemize}
+            \item GWP: Trust local police in your community?
+        \end{itemize}
+        \item Institutional trust in the mechanisms that pursue justice
+        \begin{itemize}
+            \item GWP: Trust courts and judicial system?
+
+        \end{itemize}
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Controls}
+    \begin{itemize}
+        \item Subjective economic prospects (GWP)
+        \item Objective economic prospects (unemployment rate + change in annual unemployment rate)
+        \item Individual-level factors
+        \begin{itemize}
+            \item Age
+            \item Gender
+            \item Marital status
+            \item Survey year
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+
+
+\begin{frame}{Question 2: Wartime and Armed Conflict}
+    \begin{itemize}
+        \item Uppsala Conflict Geocoded Event Dataset (GED)
+        \item Attached to GWP observations at the country-year level
+        \item War = 1000+ battle deaths in survey year
+        \item Armed conflict = 25+ battle deaths in survey year
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Progressively complex multilevel models}
+
+Multilevel models with migration aspirations as DV\\
+Individuals nested within countries (89 obs.) within country-years (510 obs.)
+     \begin{itemize}
+         \item Model 1 = individual + economic
+         \item Model 2 = Model 1 + safety + police + courts + minorities
+         \item Model 3 = Model 2 + Armed Conflict
+         \item Model 4 = Model 2 + War
+     \end{itemize}
+\end{frame}
+
+\section{Findings}
+
+\begin{frame}{Summary: Broad support for VMM framework}
+
+    \begin{itemize}
+        \item Perception of community as bad place for minorities associated with a higher likelihood of migration aspirations ($\beta = .023$)
+      \begin{itemize}
+          \item \textbf{Supports VMM 'Categorical Exclusion' feature}
+      \end{itemize}
+    \item Those who do not feel safe are more likely to say they are likely to move away ($\beta = .017$)
+    \begin{itemize}
+        \item \textbf{Supports VMM 'Safety' feature}
+    \end{itemize}
+    \item Those who do not trust the police ($\beta = .030$) and those who do not trust the courts ($\beta = .014$) are more likely to have migration aspirations. 
+    \begin{itemize}
+        \item \textbf{Supports VMM 'Institutional Trust' features}
+    \end{itemize}
+        \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Does war drive the results?}
+         \begin{figure}
+        \centering
+        \includegraphics[height=6cm]{VMM_Figure2.png}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Conclusion: A VMM Research Agenda}
+    \begin{itemize}
+        \item Subjective perceptions of violence an important but overlooked aspect of migration aspirations
+        \item Proof of concept: Enough evidence to continue pursuing line of inquiry
+        \begin{itemize}
+            \item Case studies to unpack mechanisms
+            \begin{itemize}
+               \item e.g. Latin American countries - lots of migration, lots of violence, most countries technically not "at war" for long stretches of time
+            \end{itemize}
+            \item Examine the role of police brutality as a push factor in U.S. context
+            \begin{itemize}
+                \item Draw on Tolnay and Beck's (1992) work in understanding the role of lynching in the Great Migration
+            \end{itemize}
+            \item Police brutality vs. Structural failures 
+            \item Deeper dive into Categorical Exclusion
+        \end{itemize}
+        \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Thank You!}
+    \centering
+    \Large{
+    \textbf{mlo3@nyu.edu}}
+\end{frame}
+
+\begin{frame}{Appendix: Distribution of risk and trust}
+     \begin{figure}
+        \centering
+        \includegraphics[height=5cm]{Table2.png}
+    \end{figure}
+\end{frame}
+\begin{frame}{Appendix: VMM coefficients Part I}
+    \begin{figure}
+        \centering
+        \includegraphics[height=7cm]{Table4PartI.png}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Appendix: Controls (VMM Models Part II)}
+    \begin{figure}
+        \centering
+        \includegraphics[height=7cm]{Table4PartII.png}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Appendix: VMM Coefficients with Wartime Variables Part I}
+    \begin{figure}
+        \centering
+        \includegraphics[height=7cm]{Table5PartI.png}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Appendix: Controls in VMM Wartime models\\ (VMM wartime models Part II)}
+    \begin{figure}
+        \centering
+        \includegraphics[height=7cm]{Table5PartII.png}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Appendix: Does armed conflict drive the results?}
+         \begin{figure}
+        \centering
+        \includegraphics[height=6cm]{ACvsNonAC_20200229.png}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Appendix: Four-way interactions; effects of safety}
+         \begin{figure}
+        \centering
+        \includegraphics[height=6cm]{Safe_Effects_20200301.png}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Appendix: Four-way interactions; effects of police}
+         \begin{figure}
+        \centering
+        \includegraphics[height=6cm]{Police_Effects_20200301.png}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Appendix: Four-way interactions; effects of courts}
+         \begin{figure}
+        \centering
+        \includegraphics[height=6cm]{Courts_Effect_20200301.png}
+    \end{figure}
+\end{frame}
+
+\end{document}
